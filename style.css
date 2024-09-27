@@ -1,0 +1,46 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Ensure the body takes up the full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+div {
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  height: 100vh; /* Full viewport height */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  border: black solid 3px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+body {
+  transition: 1s ease-in-out;
+}
+
+.yellow {
+  box-shadow: 0 0 10px 5px yellow;
+  border: white solid 3px;
+}
+
+.greeting {
+}
